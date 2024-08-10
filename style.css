@@ -1,0 +1,294 @@
+*{
+ margin: 0;
+ font-family: Arial, Helvetica, sans-serif;
+ border: border-box;   
+}
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.nav-logo{
+    height: 40px;
+    width: 100px;
+}
+.logo{
+    background-image: url("amazon_logo.png") ;
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+.border{
+   border:  1.5px transparent; 
+}
+.border:hover{
+    border:1.5px white solid
+}
+.adress-first{
+    color: #cccccc;
+    font-size: 0.7rem;
+    margin-left :15px;
+}
+.adress-second{
+    color: white;
+    font-size: 1rem;
+    margin-left :3px;
+}
+.add-icon{
+    display: flex;
+}
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    height: 40px;
+    width:620px ;
+    border-radius: 4px;
+}
+.search-select{
+    
+    width: 50px;
+    background-color: rgb(199, 194, 194);
+    text-align: center;
+    border: none;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+}
+.input-search{
+    width: 600px;
+    font-size: 1rem;
+    border: none;
+}
+.search-bar{
+    background-color: rgb(223, 162, 50);
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   color: #0f1111;
+   font-size: 1.2rem;
+}
+.lan{
+    display: flex; 
+}
+span{
+    font-size: 0.7rem;
+}
+.nav-second{
+font-size: 0.9rem
+}
+.cart{
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-bar2{
+    height: 39px;
+    background-color: rgb(7, 45, 94);
+    display: flex;
+   
+}
+.menu{
+    color:white;
+    display: flex;
+    height: 40px;
+    width: 55px;
+    justify-content: center;
+    align-items: center;
+}
+.abc{
+    font-size: 0.7rem;
+}
+.deals{
+    width: 102px;
+    font-size: 0.7rem;
+    color:#ffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cus-service{
+    width: 120px;
+    font-size: 0.7rem;
+    color:#ffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.reg{
+    width: 70px;
+    font-size: 0.7rem;
+    color:#ffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+.gifts{
+    width: 80px;
+    font-size: 0.7rem;
+    color:#ffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+.sell{
+    width: 80px;
+    font-size: 0.7rem;
+    color:#ffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+.hero-section{
+    background-image: url("hero_image.jpg");
+    height: 300px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end; 
+    
+}
+.hero-message{
+    font-size: 14px;
+    background-color: #ffff;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin-bottom: 25px;
+    
+    }
+.hero-message a {
+color: #007185;
+}
+.shop-section{
+    display: flex;
+    justify-content: space-evenly;
+    height: 425px;
+    background-color: #e2e7e6;
+    
+    
+}
+.box{
+    background-color: white;
+    height: 350px;
+    width: 23%;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+
+.box1-image{
+    height: 300px;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    background-size: cover;
+   
+}
+.box1-content{
+    margin-left: 10px;
+    margin-right:10px;
+}
+.box2-image{
+    height: 300px;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    background-size: cover;
+   
+}
+.box2-content{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.box3-image{
+    height: 300px;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    background-size: cover;
+   
+}
+.box3-content{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.box4-image{
+    height: 300px;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    background-size: cover;
+   
+}
+.box4-content{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.help{
+    
+    background-color: #232f3e;
+    height: 300px;
+   padding-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: inline;
+    
+   
+}
+.know-us{
+    margin-top: 5px;
+    color: #ffff;
+}
+.info{
+    margin-top: 10px;
+}
+.money{
+    margin-top: 5px;
+    color: #ffff;
+}
+.money-make{
+    margin-top: 10px;
+}
+.pay{
+    margin-top: 5px;
+    color: #ffff;
+}
+.card{
+    margin-top: 10px;
+}
+.Accounts{
+    margin-top: 5px;
+    color: #ffff;
+}
+.order{
+margin-top: 10px;
+}
+.but{
+    background-color: #dfa232;
+    padding-left:50px ;
+    padding-right:50px ;
+    padding-top:5px ;
+    padding-bottom:5px ;
+border-radius: 2px;
+font-size: 0.65rem;
+
+}
+.signin{
+    
+    gap: 5px;
+    font-size: 0.85rem;
+    border-top: 2px solid grey;
+    border-bottom: 2px solid grey;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.Start{
+    text-decoration: none;
+}
